@@ -142,4 +142,5 @@ def answer(call):
                               call.message.message_id,
                               reply_markup=keyboard_start,
                               parse_mode='html')
+
 bot.polling(none_stop=True)
