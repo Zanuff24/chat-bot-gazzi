@@ -4,7 +4,7 @@ import telebot
 
 from telebot import types
 
-bot = telebot.TeleBot('5737567559:AAGeSHNwFO0OINui86J3tqig2zaBDwq7GiE')
+bot = telebot.TeleBot('')#token
 
 
 @bot.message_handler(commands=['start'])   #приветствие
